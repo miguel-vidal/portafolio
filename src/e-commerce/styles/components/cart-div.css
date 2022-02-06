@@ -1,0 +1,36 @@
+
+.cart-div{
+    box-sizing: border-box;
+    background:#008F95;
+    width:10%;
+    height:10%;
+    border:0;
+    display: flex;
+    border-radius:5em;
+    position: fixed;
+    top:5%;
+    left:90%;
+    z-index: 1;
+}
+
+.cart-div:hover{
+    border:2px solid white;
+}
+
+.num-products{
+    font-size:.9em;
+    color:#FFFFFF;
+    margin:10% 0 0 7%;
+}
+
+  .btn-cart{
+    width:60%;
+    height:100%;
+    cursor:pointer;
+    border-radius: 5em;
+}
+
+.img-cart{
+    width:100%;
+    height:100%;
+}
